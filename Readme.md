@@ -18,8 +18,8 @@ What if we can give every person a 360 crystal clear view of everything that is 
 Website: http://panramic.com
 Video: https://www.youtube.com/watch?v=5ceozhmVzoE
 
-![Site List](demo/site_list.png)
-![Site Grid](demo/site_grid.png)
+- ![Site List](demo/site_list.png)
+- ![Site Grid](demo/site_grid.png)
 
 ### Potential Societal Impact
 
