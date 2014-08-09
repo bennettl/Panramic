@@ -5,7 +5,7 @@
 
 ![Alt text](demo/cover.png)
 
-Developed in the Freshmen year at USC, Panarmic wass my first computer science project. With absolutely no prior experience in computing, I learned 7 different computer languages in two months : HTML, CSS, Javascript, Ajax, PHP, SQL, and Bash. It was a period of insatiable curiosity. What is an ip address? What is a function? What is the OSI model? What are protocols? Why use sessions instead of cookies? I had to understand every single minute detail underneath the hood in computing. Every single variable and contingency has to be mapped out and accounted for.  I completely immerse myself and was captivated by the world of computer science. In this world i saw the opportunity to build, to create, and to invent. 
+Developed in the Freshmen year at USC, Panarmic wass my first computer science project. As a Business Administration major wiith absolutely no prior experience in computing, I learned 7 different computer languages in two months : HTML, CSS, Javascript, Ajax, PHP, SQL, and Bash. It was a period of insatiable curiosity. What is an ip address? What is a function? What is the OSI model? What are protocols? Why use sessions instead of cookies? I had to understand every single minute detail underneath the hood in computing. Every single variable and contingency has to be mapped out and accounted for.  I completely immerse myself and was captivated by the world of computer science. In this world i saw the opportunity to build, to create, and to invent. 
 
 I spent every ounce of my being  sketching, planning, strategizing, learning, programing, designing, building, and tweaking. The final product was everything I had hoped for. It was my masterpiece and I call it Panramic.
 
