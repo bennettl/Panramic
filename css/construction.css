@@ -1,0 +1,58 @@
+
+@charset "UTF-8";
+#container {
+    padding: 30px 0 0;
+    width: 624px;
+}
+.inputText {
+    color: #898989;
+    float: left;
+    height: 25px;
+    margin: 0 20px 0 0;
+    padding: 0 0 0 10px;
+    width: 200px;
+}
+#video {
+    border: 1px solid #7CB4DE;
+    border-radius: 8px 8px 8px 8px;
+    clear: left;
+    display: block;
+    height: 332px;
+    margin: 35px 0 0;
+    padding: 15px;
+    width: 590px;
+}
+.inputSubmit {
+    float: left;
+}
+#logoConstruction {
+    float: left;
+    margin: 0 50px 10px 0;
+}
+#timerContainer {
+    float: left;
+}
+.groupDiv {
+    margin: 0 auto;
+    width: 783px;
+}
+.int {
+    color: #5FB0CE;
+    font: lighter 61px helvetica neue;
+    margin: 0 1px 0 13px;
+}
+.string {
+    color: #FFFFFF;
+    font: lighter 13px helvetica neue;
+}
+#emailForm {
+    margin: 0 auto;
+    padding: 15px 0 0;
+    width: 300px;
+}
+.miscDescription {
+    clear: left;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 700px;
+}

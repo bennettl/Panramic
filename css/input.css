@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* --- Input --- */
+.inputText{
+	height: 17px;
+	font: 11px helvetica, sans-serif;
+	color: #393939;
+	line-height: 18px;
+	outline: none;
+	border: 1px solid #C7C6C6;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+	.inactiveText{
+		color: #8C8B8B;
+	}
+	
+.inputSubmit{
+	position: relative;
+	height: 24px;
+	width: 56px;
+	text-align: center;
+	background: #FFFFFF;
+	border: 1px solid #C5C5C5;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	float: right;
+	cursor: pointer;
+}
+	.inputSubmit:hover{
+		background: #ebebeb;
+		border: 1px solid #C2C2C2;
+	}
+	
+	/* --- #signinContainer--- */
+	#signIn{
+		margin-right: 50px;
+		padding: 13px 8px 11px 8px;
+		color: #333333;
+		float: right;
+	}
+		#signIn.signInA{
+			color: #FFFFFF;
+		}
+		#signIn:hover{
+			background: #F2F2F2;
+		}
+		#signIn.signInA, #signIn.signInA:hover{
+			background: #3F4853;
+		}
+		
+	#signInForm{
+		position: absolute;
+		top: 36px;
+		right: 50px;
+		color: #FFFFFF;
+		background: #3F4853;
+		padding: 3px 30px 15px 25px;
+		border: 1px solid #3F4853;
+		border-radius: 6px 0 6px 6px;
+		-webkit-border-radius: 6px 0 6px 6px;
+		-moz-border-radius: 6px 0 6px 6px;
+		z-index: 10;
+		display: none;
+	}
+		#signInForm label{
+			display: block;
+		}
+		.signInText{
+			height: 20px;
+			width: 155px;
+			float: left;
+			padding: 2px 5px;
+			border: 1px solid #3F4853;
+		}
+		#signInForm a{
+			color: #FFFFFF;
+		}
+		.signInInput{
+			height: 20px;
+			width: 180px;
+			padding: 2px 5px;
+			border: 1px solid #3F4853;
+		}
+		.signInInput{
+			width: 180px;
+		}
+		#loginFb{
+			border-top: 1px solid #FFFFFF;
+			padding: 10px 0 0 0;
+			margin: 20px 0 0 0;
+		}
+		#signInFb{
+			width: 67px;
+			height: 26px;
+			background: url(images/icons/fb_signin.png) no-repeat scroll 0 0;
+			margin: 0;
+			float: left;
+			cursor: pointer;
+		}
+			#signInFb:hover{
+				background: url(images/icons/fb_signin.png) no-repeat 0 -27px;
+			}
+	#signInSubmit{
+			width: auto;
+			height: auto;
+			font-size: 9px;
+			padding: 3px 7px;
+			margin: 0 3px 15px 0;
+			border: 1px solid #3F4853;
+			border-radius: 3px 3px 3px 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+		}
+			#signInSubmit:hover{
+				color: #333333;
+				background: #FFFFFF;
+				border: 1px solid #3F4853;
+			}
+	/* --- signUpInput --- */
+	.signUpText{
+		width: 232px /*150px*/;
+		height: 30px/*23px*/;
+		font-size: 12px/*11px*/;
+		padding: 2px 8px;
+		line-height: 22px;
+		border-radius: 2px;
+		border: 1px solid #CBCBCB;
+		border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+	}
+	#signUpForm select{
+		background: #FFFFFF;					
+		outline: none;
+		border: 1px solid #9C9C9C;
+		border-radius: 2px 2px 2px 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+
+	/* --- .searchContainer --- */
+	.searchContainer{
+		width: 283px;
+		border-radius: 3px 3px 3px 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		overflow: auto;
+	}
+		.searchText{
+			width: 250px;			
+			height: 15px;
+			line-height: 15px;
+			font-size: 11px;
+			padding: 0 5px 0 5px;
+			float: left;
+			border: none;
+		}
+		.searchSubmit{
+			width: 18px;
+			height: 12px;
+			float: left;
+			background: url(images/icons.png) no-repeat -28px -15px;
+			margin: 0 2px 0 2px;
+			padding: 0;
+			border: none;
+		}
+	
+		#hd .searchContainer{
+			padding: 1px 0;
+			margin: 7px 32px 0 0;
+			background: transparent;
+			border: 1px solid #AFAFAF;
+			float: right;
+		}		
+			#hd .searchContainer.active{
+				background: #3F4853;
+			}	
+			#hd .searchContainer:hover{
+				border: 1px solid #434343;
+			}
+			#hd .searchText{
+				color: #FFFFFF;	
+				margin-top: 2px;
+				background: transparent;
+			}
+			#hd .searchSubmit{
+				width: 18px;
+				height:17px;
+				float: left;
+				background: url(images/icons.png) no-repeat -41px -15px;
+				margin: 2px 2px 0 0;
+				border: none;
+			}
+				#hd .searchSubmit:hover{
+					background: url(images/icons.png) no-repeat -41px -15px;
+					border: none;
+				}
+				#hd .mglasslight{
+					background: url(images/icons.png) no-repeat -56px -15px;
+				}
+				#hd .mglasslight:hover{
+					background: url(images/icons.png) no-repeat -56px -15px;
+				}
+					
+		/* --- #fUserContainer --- */
+		#fuserContainer{
+			width: 175px;
+			margin: 0 0 15px 0;
+			padding: 2px 0 2px 0;
+			border: 1px solid #C5C5C5;
+		}
+			#fuserText{
+				width: 145px;			
+			}
+			#fuserSubmit{
+				width: 14px;
+				height: 15px;
+				background: url(images/icons.png) no-repeat -28px -15px;
+			}
+				#fuserSubmit:hover{
+				background: url(images/icons.png) no-repeat -28px -15px;
+					border: none;
+				}
+						
+		/* --- .guestSearchContainer --- */
+		.guestSearchContainer{
+			width: 180px;
+			padding: 1px 0 1px 0;
+			margin-top: 2px;
+			border: 1px solid #C5C5C5;
+			border-radius: 3px 3px 3px 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			overflow: auto;
+		}
+			.guestSubmit{
+				width: 13px;
+				height: 15px;
+				margin: 1px 3px 0 0;
+				float: right;
+				background: url(images/icons.png) no-repeat -73px -15px;
+				display: block;
+			}
+		/* --- #report --- */
+		.reportForm{
+			width: 395px;
+			padding: 5px 0 10px 0;
+		}
+		.reportSubmit{
+			padding: 2px 3px;
+		}
+		.fileContainer{
+			position: relative;
+			margin: 5px 0 0 0;
+			float: left;
+		}
+			.fileContainer .noti{
+				position: absolute;
+				top: -15px;
+			}
+			.fileText{
+				width: 180px;
+				padding: 3px;
+				float: left;
+			}
+			.fileContainer .inputFile{
+				position: absolute;
+				right: 25px;
+				width: 180px;
+				opacity: 0;
+				filter: alpha(opacity=0);
+				overflow: hidden;
+				z-index: 10;
+				cursor: pointer;
+			}
+			.fileSubmit{
+				margin: 1px 0 0 10px;
+				float: left;
+			}
+				.fileSubmit:hover{
+					background: none;
+				}
+		.cancelBtn{
+			margin: 10px 0 0 10px;
+			float: left;
+		}
+	/* --- .feedbackContainer  --- */
+	.feedbackText{
+		width: 510px;
+		height: 80px;
+		font-size: 12px;
+		padding: 4px 8px 4px 8px;
+		resize: none;
+	}
+	.feedbackSubmit{
+		margin: 8px 0 0 0;
+		padding: 3px 5px;
+	}

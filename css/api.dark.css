@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+body, #evtWall{
+	background: #333333;
+}
+.tableHd{
+	background: #727272;
+	color: #F4F3F3;
+}
+.feed, .feedName, .feedInfo th, .feedInfo td, .feed a, .mediumList .listName, #subTitle{
+	color: #EEEDED;
+}
+.feedImg{
+	border: 1px solid #333333;
+}
+
+.feedDescription a{
+	color: #6E99B4;
+}
+
+.mediumList img, .mediumList i{
+	border-left: 1px solid #333333;
+}

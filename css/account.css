@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+#container{
+	min-height: 550px;
+}
+#settingsMainTitle{
+	width: 800px;
+	margin: 20px 0 0 20px;
+	padding: 0 0 5px 5px;
+	border-bottom: 1px solid #C5C5C5;
+}
+#tabTop{
+	margin: 15px 0 15px 30px;
+}
+#loading{
+	top: 260px;
+	left: 600px;
+}
+/* --- #settingsContainer --- */
+#settingsContainer{
+	margin: 0 0 50px 30px;
+	width: 900px;
+	overflow: hidden;
+}
+	.settingsTitle{
+		font-size: 20px;
+		font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+		clear: left;
+	}
+	.titleDivider{
+		width: 500px;
+		height: 1px;
+		background: #C5C5C5;
+		margin: 2px 0 15px 0;
+	}
+
+	.settings th{
+		width: 100px;
+		height: 25px;
+		font-size: 11px;
+		padding-right: 15px;
+		text-align: right;
+	}
+	.settings td{
+		margin: 5px 0 5px 0;
+		display: block;
+	}
+	.settings .inputText{
+		height: 20px;
+		padding: 3px 5px 3px 5px;
+	}
+	.inputSubmit{
+		padding: 3px 3px 3px 3px;
+	}
+
+	/* --- #main --- */
+	#main{
+		width: 500px;
+	}
+	#mainImg{
+		width: 170px;
+		height: 110px;
+		border: 1px solid #E5E5E5;
+		border-radius: 2px 2px 2px 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+		
+	#main table.settings{
+		width: 450px;
+	}
+	#main .inputSubmit{
+		display: block;
+		margin-bottom: 30px;
+	}
+	#main .settingsTitle{
+		margin-top: 30px;
+	}
+	#profileImg{
+		width: 170px;
+		height: 110px;
+		margin: 0;
+	}
+		#profileImg:hover{
+			cursor:default;
+		}
+	.settings .genText{
+		width: 200px;
+	}
+	.settings .passText{
+		width: 170px;
+	}
+	
+	#generalSect .settingsTitle{
+		margin-top: 0;
+	}
+	#lookSect td{
+		float: left;
+		margin: 5px 3px;
+	}
+	#lookSect .cellLeft{
+		width: 100px;
+	}
+	
+	/* --- #field --- */
+	#add, #remove{
+		width:820px;	
+	}
+	#remove{
+		padding: 30px 0 0 0;
+		margin: 0 0 20px 0;
+		overflow: hidden;
+		clear: left;
+	}	
+		#fieldContainer{
+			margin: 10px 0 15px 0;
+		}
+		#remove li, #group li{
+			padding-bottom: 10px;
+		}
+	
+	/* -- #group --- */
+	#remove .pageNoti,#group .pageNoti{
+		margin: 10px 0 20px 0;
+		display: block;
+	}
+	.networkList li, #remove li, #group li{
+		cursor: pointer;
+	}
+	/*
+	#group li{
+		min-height: 110px;	
+	}
+	.networkList li:hover, .networkList li.current, #remove li:hover, #remove li.current, #group li:hover, #group li.current{
+		background: #E9E9E9;
+	}*/

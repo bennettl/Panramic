@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* --- #leftContainer--- */	
+#leftContainer{
+	width: 816px;
+	min-height: 890px;
+}
+#photoOverlay{
+	position: absolute;
+	z-index: 6;
+	display: none;
+	cursor: none;
+}
+#photoExpand{
+	position: absolute;
+	border: 6px solid #6F7780;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	z-index: 5;
+	display: none;
+}
+/* --- #tProfile--- */	
+#profileDivider{
+	margin: 25px 5px 0px 10px; 
+}
+	#tlProfile{
+		width: 225px;
+		height: 100px;
+		float: left;
+	}	
+	#trProfile{
+		width: 513px;
+		height: 100px;
+		float: left;
+	}
+	#sideimgContainer{
+		padding: 3px 0px 0px 5px;
+		clear: left;
+	}
+	#sideimgContainer li{
+		border-right: 1px solid #FFFFFF;
+		float: left;
+	}
+
+/* --- bProfile--- */	
+#loading{
+	top: 300px;
+	left: 320px;
+}
+
+/* --- #reviewWall--- */
+#reviewWall{
+	width: 689px;
+}
+#reviewWall #pageList{
+	padding: 0;
+}
+#reviewWall .pageNoti{
+	display: block;
+}
+#reviewWall .msgMainContainer{
+	width: 675px;
+	margin: 15px 0px 5px 0px;
+}
+	#reviewWall .msgFeedContainer{
+		width: 680px;
+		padding-left: 10px;
+		margin-bottom: 60px;
+		overflow: hidden;
+	}
+	#reviewWall .msgFeed{
+		width: 680px;
+		padding: 0;
+	}
+		#reviewWall .msgMainContainer .msgContent{
+			width: 619px;
+		}
+		#reviewWall .moreInfo{
+			margin: 5px 0 0 0;
+			clear: right;
+		}
+.reviewOptions{
+	width: 665px;
+	padding: 8px;
+	clear: both;
+}
+.reviewCount{
+	color: #808080;
+	float: right;
+}				
+	.reviewVote{
+		margin: 3px 0 0 0;
+		float: right;
+		clear: both;
+	}
+	.voteBtn{
+		color: #333333;
+	}
+/* --- #rightContainer --- */
+#rightContainer{
+	padding-top;
+}
+#rightContainer .smallList{
+	width: 180px;
+}
+.sidenavDivider{
+	margin: 9px auto 12px auto;
+}

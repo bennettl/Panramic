@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+#container{
+	width: 820px;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 25px 0;
+	margin-top: 30px;
+}
+#titleContainer{
+	margin: 0 0 30px 30px
+}
+#title{
+	color: #6291B5;
+	font-size: 30px;
+}
+#subTitle{
+	color: #8F9293;
+	font-size: 16px;
+	margin-top:  -2px;
+}
+#learnText{
+	color: #6488A3;
+	font-size: 12px;
+	margin-left: 5px;
+}
+	#learnText:hover{
+		text-decoration:underline;
+	}
+#fbmenu{
+	margin: 0 10px 0 15px;
+	padding: 10px 15px;
+	float: left;
+}
+#fbmenu li{
+	text-align: center;
+	border-bottom: 1px solid #E2E2E2;
+}
+#fbmenu a{
+	color: #8F8F8F;
+}
+#fbmenu a:hover, #fbmenu a.current{
+	color: #333333;
+}
+#fbmenu li{
+	padding: 10px 25px 10px 25px;
+}
+#welcome{
+	margin: -5px 0 0 0;
+	float: left;
+}
+#video{
+	width: 520px;
+	height: 293px;
+	padding: 15px;
+	margin: 5px 0 0 0;
+	border-radius: 8px 8px 8px 8px;
+	border: 1px solid #7CB4DE;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	display: none;
+}
+#errorMsg, #signInError{
+	color: #4084B8;
+	font-size: 11px;
+}
+ .miniList{
+	width: 550px;
+	margin: 7px 0 0 10px;
+	float: left;
+}
+table{
+	background: #EFEEEE;
+	margin: 0 0 10px 0;
+	padding: 15px 35px 20px 13px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	float: left;
+	display: none;
+}
+  table tr{
+	  color: #3F4853;
+	  font-size: 10px;
+  }
+  table td{
+	  padding: 5px 10px 5px 0px;
+  }
+  table .label{
+	width: 105px;
+	text-align: right;
+	font-size: 11px;
+ }
+#signInForm{
+	position: relative;
+	top: 0;
+	right: 0;
+	padding: 0;
+	background: none;
+	border: none;
+}
+#signInForm, #signUpForm{
+	display: none;
+	float: left;
+}
+#signInForm{
+	color: #333333;
+}
+
+	.signUpText{
+		width: 250px;
+		height: 34px;
+	}
+	#signUpBtn{
+			height: auto;
+			width: auto;
+			color: #FFFFFF;
+			background: #3c78a5;
+			margin: 5px 0px 0px 145px;
+			padding: 5px 10px;
+			font-size: 9px;
+			border: 1px solid #C3C3C3;
+			border-radius: 2px 2px 2px 2px;
+			-moz-border-radius: 2px;
+			-webkit-border-radius: 2px;
+			text-align: center;
+			cursor: pointer;
+		}
+			#signUpBtn:hover{
+				background: #4291CD;
+			}
+		#signUpFb{
+			width: 250px;
+			height: 50px;
+			background: url(images/icons/fb_signup.png) no-repeat 0 0;
+			margin: 25px 0 25px 40px;
+			cursor: pointer;
+		}
+			#signUpFb:hover{
+				background: url(images/icons/fb_signup.png) no-repeat 0 -50px;
+			}
+	#loginFb{
+		margin: 20px 0 0 36px;
+	}
+	#signInFb{
+		float: right;
+	}
+	

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* --- .container --- */
+#container.fbContainer{
+	width: 490px;
+	margin: 0;
+}
+#container{
+	width: 1060px;
+	margin: 0 auto;
+	border: none;
+}
+	/* --- .leftContainer --- */
+	.leftContainer{
+		position: relative;
+		padding: 0 0 16px 0;
+		float: left;
+	}
+		#video{
+			width: 590px;
+			height: 332px;
+			padding: 15px;
+			margin: 40px 0 0 0;
+			border-radius: 8px 8px 8px 8px;
+			border: 1px solid #7CB4DE;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			display: block;
+		}
+		#video.fbVideo{
+			border: none;
+			padding: 0;
+			margin: 0;
+			width: 489px; 
+			height: 275px;
+		}
+			.videoLike{
+				margin: 10px 0 0 0;
+				display: block;
+			}
+	
+	/* --- .rightContainer --- */
+	.rightContainer{
+		position: relative;
+		padding: 0;
+		float: left;
+		margin: 0 0 0 15px;
+	}
+		.rightContainer iframe{
+			display: block;
+		}
+		#signUpText{
+			color: #7E7E7E;
+			font-size: 27px;
+			padding: 0;
+			margin: 55px 0 -5px 0px;
+		}	
+		#learnText{
+			margin: 8px 0 0 1px;
+		}
+		#learnText a{
+			color: #6488A3;
+			font-size: 15px;
+		}
+			#learnText a:hover{
+				text-decoration:underline;
+			}
+		#signUpTable{
+			margin: 0 0 0 0;
+			padding: 10px 0 10px 0;
+			border-top: 1px solid #aeaeaf;
+		}
+			#signUpTable tr{
+				color: #3F4853;
+			}
+			#signUpTable td{
+				padding: 5px 10px 5px 0px;
+			}
+			#errorMsg, #errorMsg2{
+				color: #4084B8;
+			}
+			#errorMsg2{
+				display: none;
+			}
+			#signUpTable .label{
+				width: 68px;
+				text-align: right;
+			}
+	
+		#signUpBtn{
+			height: auto;
+			width: auto;
+			color: #FFFFFF;
+			background: #3c78a5;
+			margin: 5px 0px 0px 145px;
+			padding: 5px 10px;
+			font-size: 9px;
+			border: 1px solid #C3C3C3;
+			border-radius: 2px 2px 2px 2px;
+			-moz-border-radius: 2px;
+			-webkit-border-radius: 2px;
+			text-align: center;
+			cursor: pointer;
+		}
+			#signUpBtn:hover{
+				background: #4291CD;
+			}
+		#signUpFb{
+			width: 250px;
+			height: 50px;
+			background: url(images/icons/fb_signup.png) no-repeat 0 0;
+			margin: 25px 0 25px 40px;
+			cursor: pointer;
+		}
+			#signUpFb:hover{
+				background: url(images/icons/fb_signup.png) no-repeat 0 -50px;
+			}
+#footer{
+	margin-top: 0;
+}

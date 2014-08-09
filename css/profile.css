@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* --- #leftContainer --- */	
+#leftContainer{
+	width: 816px;
+	min-height: 890px;
+}
+/* --- #tProfile --- */
+#tProfile{
+	height: 140px;
+}
+#profileImg{
+	width: 170px;
+	height: 110px;
+}
+#profileDivider{
+	margin: 22px 5px 0px 7px; 
+}
+#profileNetwork{
+	margin: 25px 5px 0px 2px;
+	float: left;
+}
+	#profileNetwork > li{
+		height: 30px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	#profileNetwork > li > i{
+		width: 30px; 
+		height: 30px;
+		display: block;
+	}
+
+/* --- #bProfile --- */	
+#loading{
+	top: 300px;
+	left: 320px;
+}
+.genInfoHd{
+	width: 438px;
+}
+.genInfoTable{
+	width: 450px;
+}
+
+/* --- #rightContainer --- */
+#rightContainer .smallList{
+	width: 180px;
+}
+#sidenavTop{
+	margin: 15px 10px 0px 0px;
+	overflow: auto;
+}
+.sidenavDivider{
+	margin: 0 auto 12px auto;
+}

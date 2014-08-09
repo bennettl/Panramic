@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	overflow: hidden;
+}
+
+#networkBg{
+	background: #FFFFFF; 
+	position: absolute; 
+	top: 40px;
+	width: 100%;
+	height: 131px;
+}
+/* --- #container --- */
+#container{
+	width: 1060px;
+	margin: 0 auto;
+	border: none;
+}
+	/* ---#topContainer --- */
+	#topContainer{
+		position: relative;
+		padding: 20px 0 10px 0;
+	}
+		#networkText{
+			position: absolute;
+			top: 25px;
+			left: 103px;
+			font-size: 30px;
+			color:  #3F4853;
+		}
+		#description{
+			position: absolute;
+			top: 95px;
+			left: 105px;
+			width: 820px;
+			font-size: 14px;
+			color: #A1A1A1;
+		}
+			#description > p{
+				margin: 5px 0 15px 0;
+			}
+		
+	/* --- #bottomContainer --- */
+	#bottomContainer{
+		position:relative;
+		margin: 180px 0 0 70px;
+		padding: 25px 0 0 115px;
+		height: 200px;
+		width: 780px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+		/* --- #networkContainer --- */
+		.networkTable{
+			margin: 30px 0 0 0;
+			float: left;
+		}
+			.networkTable td{
+				text-align: right;
+				padding: 5px 2px 3px 0;
+			}
+			.networkText{
+				width: 180px;
+				height: 22px;
+				padding: 2px 5px 2px 8px;
+				font-size: 11px;
+				border: 1px solid #adacac;
+				margin-left: 10px;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+			}
+			.inactiveText{
+				color: #858585;
+			}
+		#searchList{
+			display: block;
+		}
+		#networkImg {;
+			width: 350px;
+			height: 180px;
+			border: 1px solid #D2D2D2;
+			margin: 0 0 0 80px;
+			float: left;
+		}
+		#nextBtn{
+			color: #FFFFFF;
+			background: #2E70A2;
+			margin: 10px 0 0 0;
+			padding: 4px 6px 5px 6px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+			border: 1px solid #C5C5C5;
+			cursor:pointer;
+		}
+			#nextBtn:hover{
+				background:#065D9E;
+			}

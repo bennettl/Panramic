@@ -1,0 +1,712 @@
+@charset "UTF-8";
+/* CSS Document */
+#hd.min{
+	position: relative;
+	display: none;
+}
+/* --- #leftContainer --- */
+.firstContainer{
+	position: absolute;
+	width: 420px;
+	margin-left: 330px;
+	z-index: 10;
+}
+#firstBContainer{
+	top: 190px;
+}
+.firstMod{
+	position: relative;
+	width: 340px;
+	border: 3px solid #6F7780;
+	float: left;
+	display: block;
+}
+.firstImg{
+	margin: 0 0 0 10px;
+	float: left;
+}
+#firstRimg{
+	width: 40px;
+	height: 40px;
+	margin-top: 32px;
+}
+#contentContainer{
+	margin: 0;
+}
+	/* --- #feedContainer --- */
+	#feedContainer{
+		width: 755px;
+		margin: 30px 0 70px 10px;
+	}
+		#feedContainer #pageList{
+			padding: 8px 0;
+			margin: 0 36px 0 30px;
+		}
+	/* --- #timeline --- */
+	#timeline{
+		margin: 5px 0 0 20px;
+	}
+	#timeline > li {
+		color: #5B5B5B;
+		display: inline; 	
+		font-weight: bold;	
+	}
+		#timeline a{
+			font-size: 11px;			
+			color: #5B5B5B;
+			float: none;
+			margin: 0 0 0 3px;
+			padding: 0 4px 3px 4px;
+			display: inline; 
+		}
+			#timeline li a:hover, #timeline .current{
+				border-bottom: 1px solid #2292dd;
+			}
+		#myCal{
+			position: relative;
+		}
+		#calImg{
+			position: absolute;
+			top: -4px;
+			left: 0;
+			width: 15px;
+			height: 15px;
+			background: url(images/icons.png) no-repeat -129px 0px;		
+			display: block;
+		}
+		#calText{
+			padding-left: 15px;
+		}
+		#calNoti{
+			background: #F1F1F1;
+			font-size: 9px;
+			font-weight: normal;
+			padding: 3px 4px;
+			margin-left: 3px;
+		}
+	
+	/* --- #feedList --- */
+	#feedList{
+		margin: 25px 0 0 15px;
+		clear: right;
+	}
+		#feedList >	li:last-child{
+			border: none;
+		}
+	.pageLayout{
+		width: 745px;
+		margin: 25px 0 0 20px;
+	}
+	.pageHd{
+		width: 600px;
+		color: #676767;
+		font-size: 20px;
+		padding: 0 0 2px 6px;
+		margin-bottom: 15px;
+		border-bottom: 1px solid #C2C0C0;
+	}
+	#feedNoti{
+		color: #7A7A7A;
+		margin: 100px 0 0 250px;
+		cursor: default;
+	}
+	#showMore{
+		background: #F2F2F2;
+		color: #787878;
+		font-size: 10px;
+		font-weight: bold;
+		border-top: 1px solid #E8E8E8;
+		border-bottom: 1px solid #E8E8E8;
+		padding: 15px 0;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		display: none;
+	}
+		#showMore:hover{
+			background: #E8E8E8;
+		}
+	/* --- #eventInv --- */
+	.mediumList .deleteBox{
+		position: absolute;
+		top: 5px;
+		right: 4px;
+		width: 13px;
+		height: 13px;
+		display: block;
+		background: url(images/icons.png) no-repeat -2px -13px;
+		display: block;
+		border: none;
+	}
+		.deleteBox:hover{
+			background: url(images/icons.png) no-repeat -15px -13px;
+		}
+	
+	/* --- #friendReq --- */
+	#confirmBox{
+		position: absolute;
+		width: 80px;
+		height: 100px;
+		cursor: pointer;
+		z-index: 2;
+		display: none;
+	}
+	.confirmBtn{
+		position: absolute;
+		top: 40px;
+		left: 16px;
+		width: 48px;
+		height: 21px;
+		vertical-align: middle;
+		color: #D4D3D3;
+		background: #5B5B5B;
+		font-size: 9px;
+		text-align: center;
+		border: 1px solid #4E4E4E;
+		border-radius: 3px 3px 3px 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		cursor: pointer;
+	}
+		.confirmBtn:hover{
+			color: #FFFFFF;
+			border: 1px solid #4E4D4D;
+		}
+
+	/* --- #groupBuffer --- */
+	#groupBuffer .mediumList{
+		cursor: pointer;
+	}
+
+	/* --- #postEvent --- */
+	#postEventWall{
+		padding-bottom: 150px;
+	}
+		#postEventWall .noti{
+			margin-left: 5px;
+		}
+	#postEventTable{
+		margin: 3px 0 0 5px;
+	}
+	#postEventTable td, .evtForm td{
+		padding: 2px 0;
+	}
+	#pushContainer{
+		margin: 5px 0 0 0;
+	}
+	#pushContainer .pushStatus{
+		color: #AAAAAA;
+		font-weight: bold;
+	}
+		#pushContainer .current{
+			color: #333333;
+		}
+	.pushdiv{
+		margin: 0 0 5px 0;
+		display: none;
+	}
+		.pushdiv input{
+			margin: 0;
+		}
+		.pushdiv label{
+			margin: 0 10px 0 2px;
+		}
+	#rsvpDateRow, #endDateRow{
+		display: none;
+	}
+	#postEventWall .peText{
+		width: 200px;
+		padding: 3px 5px;
+	}
+ 	.dateInput{
+		width: 120px;
+		margin-right: 10px;
+		padding: 2px 5px 2px 5px;
+	}
+	.locInput{
+		padding: 2px 5px 2px 5px;
+	}
+	.hidden{
+		display: none;
+	}
+	#postEventWall .label{
+		text-align: right;
+		padding-right: 10px;
+	}
+	#evtImg{
+		width: 100px;
+		height: 93px; 
+		margin: 5px 0 0 0;
+		float: left;
+	}
+	#evtImgOptions{
+		margin: 60px 0 0 8px;
+		float: left;
+	}
+	#evtFile{
+		margin:0 0 5px 0;
+	}
+	#evtGuest{
+		padding-top: 5px; 
+		display: block;	
+	}
+	#postEventWall #eventNote{
+		width: 650px;
+		padding-left: 20px;
+	}
+	.descriptionText{
+		width: 450px;
+		height: 40px;
+		padding: 5px;
+		resize: none;
+		overflow: auto;
+	}
+		.tcContainer{
+			font-size: 10px;
+			margin: 3px 30px 0 0;
+			float: right;
+		}
+	#previewForm{
+		display: none;
+	}
+
+	/* --- #groupSubmit --- */
+	#groupSubmit{
+		width: 740px;
+		padding-left: 5px;
+	}
+	.label{
+		text-align: right;
+		padding-right: 10px;
+	}
+	
+	#groupSubmit .inputText, #groupManage .inputText, #eventReq .inputText{
+		width: 180px;
+		padding: 4px 6px;
+	}
+		#eventReq .inputSubmit{
+			margin-left: 15px;
+		}
+	#groupSubmit .guestText, #groupManage .guestText, #eventReq .guestText{
+		width: 150px;
+		font-size: 10px;
+		padding: 0 0 0 5px;
+	}
+	#groupSubmit .descriptionText, #groupManage .descriptionText, #eventReq .descriptionText{
+		width: 480px;
+		height: 40px;
+		resize: none;
+	}
+	
+	/* --- #groupManage --- */
+	#groupManage #tabTop{
+		margin: 0 0 0 5px;
+	}
+	#groupManage .title{
+		font-size: 16px;
+		font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+		clear: both;
+		margin: 0;
+		padding-left: 5px;
+	}
+		.titleDivider{
+			width: 500px;
+			height: 1px;
+			background: #C5C5C5;
+			margin: 2px 0 15px 0;
+		}
+	#aboutUs #profileImg{
+		margin: 0 0 5px 0;
+	}
+	#aboutUsTable td{
+		margin: 3px 0;
+		display: block;
+	}
+	#groupManage .pushBlock{
+		width: 630px;
+		margin: 17px 0 0px 5px;
+		clear: left;
+	}
+		#groupManage .pushBlock li{
+			margin: 0 0 10px 0;
+		}
+		#groupManage .pushBlock input{
+			margin: 0 2px 0 0;
+		}
+		#groupManage .pushBlock .pushSelect{
+			margin: 0 15px 0 0;
+		}
+			#groupManage .pushBlock .inputSubmit{
+				margin: -15px -6px 20px 3px;
+				float: right;
+			}
+	
+	#groupManage #pullBlock input{
+		margin: 0 10px 40px 5px;
+		float: left;
+	}
+	#groupManage #pullForm p{
+		margin-left: 5px;
+	}
+	#widgetContainer{
+		width: 665px;
+		margin: 15px 0 0 0;
+	}
+		#widgetContainer .tableHd{
+			width: 650px;
+		}
+		#widgetContainer .feed{
+			width: 660px;
+		}
+		#widgetContainer .feedInfo{
+			width: 540px;
+		}
+	#styleSelector{
+		margin: 18px 0 5px 5px;
+	}
+		#groupManage #styleSelector input{
+			margin: 0 5px 0 10px;
+		} 
+	.colorDiv{
+		margin: 15px 15px 20px 0;
+		float: left;
+	}
+		.colorDiv div{
+			margin-left: 5px;
+			float: left;
+		}
+		.colorText{
+			font-size: 10px;
+			margin-top: 7px;
+		}
+		.colorBox{
+			width: 20px;
+			height: 20px;
+			border: 1px solid #333333;
+			border-radius: 3px 3px 3px 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			cursor: pointer;
+		}
+	#groupPhotoForm th{
+		padding: 0 10px 0 0;
+		text-align: right;
+		cursor: default;
+	}
+	.photoLabel{
+		font-size: 10px;
+		font-weight: bold;
+		margin: 5px 0 0 2px;
+		cursor: default;
+	}
+	#evtTimeline{
+		margin: 0px 0 0 -7px;
+	}
+		#evtTimeline a{
+			color: #8F8F8F;
+			padding: 0 10px 0 10px;
+			border-right: 1px solid #A9A9A9;
+			float: left;
+			display: block;
+		}
+			#evtTimeline a:hover, #evtTimeline a.current{
+				color: #333333;
+			}
+			#evtTimeline li:last-child a{
+				border: none;
+			}
+	#events #notiContainer{
+		padding-top: 5px;
+		clear: left;
+	}
+	#fbNoti, #googleNoti{
+		margin: 0 0 7px 5px;
+		clear: left;
+	}
+	#fbNoti, #googleNoti{
+		color: #AAAAAA;
+	}
+	#events #eventNoti{
+		clear: left;
+		margin-bottom: 0;
+		font-weight: bold;
+		display: none;
+	}
+	#events .miniEvtImg, #eventReq .miniEvtImg{
+		width: 90px;
+		height: 80px;
+		margin-top: 5px;
+		float: left;
+	}
+	#events .miniEvtFile{
+		margin: 60px 0 0 5px;
+		float: left;
+	}
+	#events .mediumList, #eventReq .mediumList{
+		width: 650px;
+		padding-top: 20px;
+		clear: left;
+	}
+		#events .mediumList > li, #eventReq .mediumList > li{
+			position: relative;
+			width: 91px;
+			height: 130px;
+			cursor: pointer;
+		}
+		#events .mediumList img, #eventReq .mediumList img{
+			width: 90px;
+			height: 80px;
+		}
+			#eventReq .guestTab{
+				padding: 10px 0 0 0;
+			}
+		#events #deleteList, #eventReq #deleteList{
+			position: absolute;
+			width: 90px;
+			height: 110px;
+		}
+		.evtFrom .tcCounter{
+			margin 5px 0 0 0;
+		}
+		.evtForm .miniList{
+			width: 100%;
+			margin: 5px 0 0 0;
+		}
+	#formContainer{
+		padding: 13px 0 0 0; 
+		clear: left;
+		display: none;
+	}
+		#eventReq #formContainer{
+			padding: 0 0 0 15px;
+		}
+	#formContainer .tcContainer{
+		margin: 3px 0 0 0;
+	}
+	#events .pageNoti{
+		margin: 0 0 150px 5px;
+	}
+	#eventReq .pageNoti{
+		margin: 0 0 10px 2px;
+	}
+	.formList{
+		display: none;
+	}
+	.formList table{
+		padding: 15px 0 20px 0;
+		border-top: 1px solid #C5C5C5;
+		border-bottom: 1px solid #C5C5C5;
+	}
+	#eventReq .formList table{
+		padding: 0 0 20px 0;
+		border-top: none;
+	}
+	#groupManage .descriptionText{
+		width: 550px;
+	}
+	#groupContainer{
+		margin: 10px 0 0 5px;
+		padding-bottom: 120px;
+	}
+		#groupContainer #evtList{
+			width: 700px;
+		}
+		#members .guestListContainer, #members .listContainer, #member, #updateMember{
+			width: 620px;
+		}
+		#members .guestListContainer{
+			height: auto;
+			max-height: 200px;
+		}
+		#members .smallList{
+			padding: 0;
+			margin-bottom: 60px;
+			overflow: hidden;
+		}
+	#recordTable p{
+		margin: 0 0 15px;
+	}
+	#recordTable td{
+		padding-right: 20px;
+	}
+		#groupManage #recordTable .inputSubmit{
+			width: 65px; 
+			margin: 0;
+			float: left;
+		}
+		#groupManage .inputSubmit{
+			margin: 10px 0 0 10px;
+		}
+			#groupManage .fileSubmit{
+				margin: 1px 0 0 10px;
+			}
+		#updateMember .inputSubmit{
+			width: auto;
+		}
+	
+	/* --- #groupSel --- */
+	#groupSel .noti{
+		margin-bottom: 10px;
+	}
+	#groupSelTable{
+		margin-left: 5px;
+	}
+	#groupSelTable .inputText{
+		width: 255px;
+		height: 20px;
+		padding: 2px 8px;
+	}
+	#groupSelTable td{
+		padding-left: 5px;
+	}
+	/* --- #groupReq --- */
+	#groupReq #groupEditForm{
+		width: 660px;
+		padding: 0 0 10px 15px;
+		margin: 0 0 20px 20px;
+		border-bottom:1px solid #DEDEDE;
+		display: none;
+	}
+	#groupReq #groupName{
+		padding: 0 0 0 5px;	
+	}
+	#groupReq .editBtn{
+		margin: 5px 0 0 0;
+		display: block;
+	}
+	
+	/* --- #masse --- */
+	.tableForm{
+		margin-left: 7px;
+	}
+	.tableForm td{
+		padding: 2px 0;
+	}
+	#masseTable{
+		border-bottom: 1px solid #C2C0C0;
+		padding: 10px  0 15px 10px;
+		width: 680px;
+	}
+	#masseTable .inputText {
+		width: 180px;
+		padding: 4px 6px;
+	}
+	#masseTable .descriptionText{
+		width: 450px;
+	}
+		
+	/* --- #report --- */
+	.reportTitle{
+		font-size: 16px;
+		padding: 10px 0 0 0;
+	}
+	.reportSection{
+		padding: 0 0 0 5px;
+	}
+	.reportContainer{
+		padding: 0;
+		margin: 0;
+	}
+	.report{
+		width: 675px;
+		margin: 5px 0 15px 0;
+		overflow: hidden;
+	}
+		.reportSection .pageNoti{
+			margin: 10px 0 10px 0px
+		}
+			.reportNoti a{
+				color: #494949;	
+			}
+		#report .pageHd{
+			margin: 0;
+		}
+			.feed .reportNoti{
+				padding-bottom: 10px;
+			}
+			.roptionNoti{
+				margin: 0 0 15px 5px;
+			}
+			.feed .reportForm{
+				padding: 5px 0 15px 0;
+			}
+		#report .feedImg{
+			width: 95px;
+			height: 80px;
+		}
+		#report .msgContent{
+			width: 615px;
+		}
+	
+/* --- #rightContainer --- */
+#rightContainer{
+	width: 255px;
+}
+	/* --- #sidenavTop --- */
+	#sidenavTop{
+		margin: 6px 0 20px 0;
+	}
+		#sidenavTop a{
+			padding: 3px 5px 3px 25px;
+			display: block;
+		}
+			#sidenavTop a:hover, #sidenavTop .current{
+				background: #D6E0E8;
+			}
+		#evtFeedText{
+			margin: 28px 0 0 25px;
+			font-size: 10px;
+			font-weight: bold;
+			cursor: default; 
+		}
+		#sidenavTop .sidenavDivider{
+			margin: 6px 16px;
+		}
+		.sideNoti{
+			position: absolute;
+			left: 163px;
+			font-size: 10px;
+			color: #FFFFFF;
+			background: #B2B1B1;
+			padding: 1px 5px;
+			border: 1px solid #C0C0C0;
+			border-radius: 2px 2px 2px 2px;
+			-moz-border-radius: 2px;
+			-webkit-border-radius: 2px;
+		}
+	
+	/* --- #sidenavBottom --- */
+	#sidenavBottom{
+		padding-left: 23px;
+	}
+	.miniListTitle{
+		margin: 0 0 2px 0;
+	}
+	.miniList{
+		margin: 0 0 15px 0;
+	}
+	.filterContainer{
+		margin: 0 0 5px 0;
+	}
+	.filterStatus{
+		font-size: 10px;
+		color: #AAAAAA;
+		cursor: pointer;
+	}
+		.filterContainer .miniListTitle{
+			margin: 3px 5px 2px 8px;
+		}
+		.filterContainer .current{
+			color: #636363;
+			font-weight: bold;
+		}
+	.filterBox{
+		position: absolute;
+		width: 33px; 
+		height: 31px;
+		background: #333333;
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		z-index: 3;
+		cursor: pointer;
+	}
