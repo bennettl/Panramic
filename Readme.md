@@ -15,11 +15,11 @@ There are over 800 campus organizations at USC. Each one of these organization h
 
 What if we can give every person a 360 crystal clear view of everything that is going on around them? Our vision is to pull together every event on campus through a single network, generate an events feed, and filter the events based on the person.
 
-Website: http://panramic.com
-Video: https://www.youtube.com/watch?v=5ceozhmVzoE
+* Website: http://panramic.com
+* Video: https://www.youtube.com/watch?v=5ceozhmVzoE
 
-- ![Site List](demo/site_list.png)
-- ![Site Grid](demo/site_grid.png)
+![Site List](demo/site_list.png)
+![Site Grid](demo/site_grid.png)
 
 ### Potential Societal Impact
 
